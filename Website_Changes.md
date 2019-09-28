@@ -4,3 +4,4 @@
 28/09/2019
 1. Hindi>about.html - Changes Complete
 2. Tamil>about.html - Changes Complete
+3. Kannada>about.html - Changes Complete
