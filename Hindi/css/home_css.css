@@ -1,0 +1,60 @@
+.img-fluid{
+        width:30vw;
+        float:right;
+        margin-top:10vh;
+        border-radius: 8px;
+       
+    }
+    .info{
+        width:35vw;
+        text-align: justify;
+        margin-top:24vh;
+        float: left;
+    }
+    .f{
+        width:20vw;
+        height:360px;
+        border-radius:5px;
+        box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+       margin-top:25vh;
+        margin-right:27px;
+        float:left;
+    }
+    .pp{
+        font-size: 4.3em;
+        width: 80px;
+        margin:22px;
+    }
+    .as{
+        clear: both;
+    }
+    .ab{
+        padding:20px;
+        text-align: justify;
+        font-size: 1.1em;
+    }
+    .head{
+        float:right;
+        margin-top:26px;
+        text-align: justify;
+        font-size: 1.2em;
+        margin-right: 13px;
+        color:#001064;
+       
+    }
+    .heads{
+        float:right;
+        margin-top:26px;
+        text-align: justify;
+        font-size: 1.2em;
+        margin-right: 75px;
+         color:#001064;
+    }
+    .headss{
+        float:right;
+        margin-top:26px;
+        text-align: justify;
+        font-size: 1.2em;
+        margin-right: 41px;
+         color:#001064;
+    }

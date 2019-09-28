@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" type="image/icon" href="img/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .img-fluid {
+            width: 30vw;
+            float: right;
+            margin-top: 10vh;
+            border-radius: 8px;
+        }
+        
+        .info {
+            width: 35vw;
+            text-align: justify;
+            margin-top: 24vh;
+            float: left;
+        }
+        
+        .f {
+            width: 20vw;
+            height: 360px;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            margin-top: 25vh;
+            margin-right: 27px;
+            float: left;
+        }
+        
+        .pp {
+            font-size: 4.3em;
+            width: 80px;
+            margin: 22px;
+        }
+        
+        .as {
+            clear: both;
+        }
+        
+        .ab {
+            padding: 20px;
+            text-align: justify;
+            font-size: 1.1em;
+        }
+        
+        .head {
+            float: right;
+            margin-top: 26px;
+            text-align: justify;
+            font-size: 1.2em;
+            margin-right: 13px;
+            color: #001064;
+        }
+        
+        .heads {
+            float: right;
+            margin-top: 26px;
+            text-align: justify;
+            font-size: 1.2em;
+            margin-right: 75px;
+            color: #001064;
+        }
+        
+        .headss {
+            float: right;
+            margin-top: 26px;
+            text-align: justify;
+            font-size: 1.2em;
+            margin-right: 41px;
+            color: #001064;
+        }
+        
+        .body {
+            font-family: "Lato", sans-serif;
+            transition: background-color .5s;
+        }
+        
+        .selected {
+            background-color: #CDD1CA;
+        }
+        
+        .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: white;
+            overflow-x: scroll;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
+        
+        .sidenav a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 18px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+        }
+        
+        .sidenav a:hover {
+            color: #022E53;
+        }
+        
+        .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+        
+        #main {
+            transition: margin-left .5s;
+            padding: 16px;
+        }
+        
+        @media screen and (max-height: 450px) {
+            .sidenav {
+                padding-top: 15px;
+            }
+            .sidenav a {
+                font-size: 18px;
+            }
+        }
+        
+        .body {
+            background-color:
+        }
+    </style>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- meta character set -->
+    <meta charset="UTF-8" />
+    <!-- Site Title -->
+    <title>SERVICE LEARNING - Home</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:900|Roboto:400,400i,500,700" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/home_css.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- ================ Start Header Area ================= -->
+
+    <nav class="navbar navbar-expand-sm" style="background-color: #022E53">
+        <!-- Brand -->
+        <div id="main" class="navbar-brand">
+            <span style="color:white;font-size:25px;cursor:pointer" onclick="openNav()"> &#9776;</span>
+        </div>
+
+        <!-- Links -->
+        <ul class="navbar-nav">
+            <li class="nav-item"><img src="img/logo.png" height="50px" width="50px"> </li>
+        </ul>
+        <div class="navbar-collapse collapse w-100 dual-collapse2 order-1 order-md-0">
+            <ul class="navbar-nav ml-auto text-center">
+                <li class="nav-item active">
+                    <a href="https://www.christuniversity.in"> <img src="img/christ_logo.png" height="45px" width="150px" class="float-right" /></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <p style="background-color: #8BC34A; text-align: center;">&nbsp; <br> A Little Better, Everyday <br> &nbsp;</p>
+        <a class="selected" href="#"> <i class="fas fa-home"></i> Home</a>
+        <hr>
+        <a class="notify" href="#"><i class="fas fa-book"></i> Chapter 1</a>
+        <a class="notify" href="#"><i class="fas fa-book"></i> Chapter 2</a>
+        <a class="notify" href="#"><i class="fas fa-book"></i> Chapter 3</a>
+        <a class="notify" href="#"><i class="fas fa-book"></i> Chapter 4</a>
+        <a class="notify" href="#"><i class="fas fa-book"></i> Chapter 5</a>
+        <a class="notify" href="#"><i class="fas fa-book"></i> Chapter 6</a>
+        <a class="notify" href="#"><i class="fas fa-book"></i> Chapter 7</a>
+        <a class="notify" href="#"><i class="fas fa-book"></i> Chapter 8</a>
+        <a class="notify" href="#"><i class="fas fa-book"></i> Chapter 9</a>
+        <a class="notify" href="#"><i class="fas fa-book"></i> Chapter 10</a>
+        <a class="notify" href="#"><i class="fas fa-book"></i> Chapter 11</a>
+        <a class="notify" href="#"><i class="fas fa-book"></i> Chapter 12</a>
+        <a class="notify" href="#"><i class="fas fa-book"></i> Chapter 13</a>
+        <a class="notify" href="#"><i class="fas fa-book"></i> Chapter 14</a>
+        <a class="notify" href="#"><i class="fas fa-book"></i> Chapter 15</a>
+        <a class="notify" href="# "><i class="fas fa-book"></i> Chapter 16</a>
+        <a class="notify" href="#"><i class="fas fa-info-circle"></i> About</a>
+        <a class="notify" href="#"><i class="fas fa-question-circle"></i> Help</a>
+    </div>
+    <script type="text/javascript">
+        $(".notify").click(function() {
+            swal({
+                title: "Error!",
+                text: "Please Select a Language First!",
+                icon: "warning",
+                button: "Ok!",
+            });
+        });
+
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+            document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+            document.body.style.backgroundColor = "white";
+        }
+    </script>
+
+    <!-- ================ End Header Area ================= -->
+    <div class="container">
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   <i class="fas fa-globe"></i> Select a Language
+  </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="Hindi/index - Hindi.html">Hindi</a>
+                <a class="dropdown-item" href="Tamil/index - Tamil.html">Tamil</a>
+                <a class="dropdown-item" href="Kannada/index - Kannada.html">Kannada</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <img class="img-fluid" src="img/himg.png" alt=" " />
+        <div class="info">
+            <h1> S-Learn </h1>
+            <h4 class="float-right">- A Little Better EveryDay</h4><br><br>
+            <p>We call this place S-Learn, and we provide the Learning Platform for the students of 10th standard.We are dedicated towards our work students can acquire and effectively apply the knowledge, attitudes, and skills necessary to thrive in their
+                studies, careers,and adult lives.</p>
+        </div>
+        <div id="video">
+            <video src="https://www.googleapis.com/drive/v3/files/1PMhK_vtrlrxWMZJXi_mqt_fRAhk3XbAx?alt=media&key=AIzaSyDGM7x8fm19WaGevPLCBVGLNy3zLhpBdds" controls style="height: 700px; width: 100%;" poster="img/home_video.jpg">        
+            </div>
+    <div class='as'>
+        <div class="f">
+            
+            <i class="material-icons pp" style='font-size: 3.5em;'>
+                video_library
+            </i>
+            <div class="head">
+               <b> Video Lectures</b>
+            </div>
+            <div class="ab">Our video lectures cover science ( Physics , Chemistry and Biology ) with attractive visualizations making it easier to understand.</div>
+        </div>
+         <div class="f">
+            <i class="material-icons pp" style='font-size: 3.5em;'>
+                dynamic_feed
+            </i>
+             <div class="heads">
+             <b>  PPT's</b>
+            </div>
+             <div class="ab">The PPT's help the student to read through and refer the topics that were taught in the video lectures which helps to clear the concepts and also as a reference</div>
+        </div>
+         <div class="f">
+              <i class="material-icons pp" style='font-size: 3.5em;'>
+            translate
+            </i>
+             <div class="headss">
+             <b> Languages</b>
+            </div>
+             <div class="ab">Every student is special and their level of understanding varies from child to child. We provide the video lectures with 4 different languages Kanada , Tamil , Hindi and English.</div>
+        </div>
+    </div>
+</div>
+
+<!-- end container -->   
+</body>
+</html>

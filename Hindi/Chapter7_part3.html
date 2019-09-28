@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel = "icon" type = "image/icon" href = "img/logo.png">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+  transition: background-color .5s;
+}
+
+.selected{
+  background-color: #CDD1CA;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: scroll;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #022E53;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.body{
+  background-color: 
+}
+</style>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- meta character set -->
+  <meta charset="UTF-8" />
+  <!-- Site Title -->
+  <title>SERVICE LEARNING - Chapter 7</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:900|Roboto:400,400i,500,700" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+  <!-- ================ Start Header Area ================= -->
+
+<nav class="navbar navbar-expand-sm" style="background-color: #022E53">
+  <!-- Brand -->
+  <div id="main" class="navbar-brand">
+          <span style="color:white;font-size:25px;cursor:pointer" onclick="openNav()"> &#9776;</span>
+    </div>
+
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item"><img src="img/logo.png" height="50px" width="50px">    </li>
+  </ul>
+  <div class="navbar-collapse collapse w-100 dual-collapse2 order-1 order-md-0">
+        <ul class="navbar-nav ml-auto text-center">
+            <li class="nav-item active">
+        <a href="https://www.christuniversity.in"> <img src="img/christ_logo.png" height="45px" width="150px"  /></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<br>
+  
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <p style="background-color: #8BC34A; text-align: center;">&nbsp; <br> A Little Better, Everyday <br> &nbsp;</p>
+  <a href="index - Hindi.html"> <i class="fas fa-home"></i> Home</a> <hr>
+  <a href="Chapter1.html" ><i class="fas fa-book"></i> Chapter 1</a>
+  <a href="Chapter2.html"><i class="fas fa-book"></i> Chapter 2</a>
+  <a href="Chapter3.html" ><i class="fas fa-book"></i> Chapter 3</a>
+  <a href="Chapter4.html" ><i class="fas fa-book"></i> Chapter 4</a>
+  <a href="Chapter5.html" ><i class="fas fa-book"></i> Chapter 5</a>
+  <a href="Chapter6.html" ><i class="fas fa-book"></i> Chapter 6</a>
+  <a href="Chapter7.html" class="selected"><i class="fas fa-book"></i> Chapter 7</a>
+  <a href="Chapter8.html"><i class="fas fa-book"></i> Chapter 8</a>
+  <a href="Chapter9.html"><i class="fas fa-book"></i> Chapter 9</a>
+  <a href="Chapter10.html"><i class="fas fa-book"></i> Chapter 10</a>
+  <a href="Chapter11.html"><i class="fas fa-book"></i> Chapter 11</a>
+  <a href="Chapter12.html"><i class="fas fa-book"></i> Chapter 12</a>
+  <a href="Chapter13.html"><i class="fas fa-book"></i> Chapter 13</a>
+  <a href="Chapter14.html"><i class="fas fa-book"></i> Chapter 14</a>
+  <a href="Chapter15.html"><i class="fas fa-book"></i> Chapter 15</a>
+  <a href="Chapter16.html"><i class="fas fa-book"></i> Chapter 16</a>
+  <a href="about.html"><i class="fas fa-info-circle"></i> About</a>
+  <a href="help.html"><i class="fas fa-question-circle"></i> Help</a>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
+</script>
+
+  <!-- ================ End Header Area ================= -->
+
+
+
+<div class="container">
+  <h1> Chapter 7 : Control and Coordination - PART 3</h1><hr>
+  <video src="https://www.googleapis.com/drive/v3/files/1nNzPC-6JfsrdbghnFXRbJEIvmV1HM3Jb?alt=media&key=AIzaSyDGM7x8fm19WaGevPLCBVGLNy3zLhpBdds" controls style="height: 700px; width: 100%;" >
+  <p>Your browser doesn't support HTML5 video. Here is a <a href="rabbit320.webm">link to the video</a> instead.</p> 
+  </video>
+
+   <br><hr>
+   <ul class="float-right"> 
+  <li style="display: inline-block;"> <button class="btn btn-primary float-right"><a href="Chapter7.html" style="color:white;text-decoration: none;">Part 1</a></button> </li>
+  <li style="display: inline-block;"> <button class="btn btn-primary float-right"><a href="Chapter7_part2.html" style="color: white;text-decoration: none;">Part 2</a></button></li>
+<li style="display: inline-block;"><button class="btn btn-secondary float-right"><a href ="#" style="color: white; text-decoration: none;">Part 3</a></button></li>
+</ul>
+   <textarea id="notes" placeholder="Write your Notes here" cols="5" class="form-control"></textarea> <br>
+        <button class="btn btn-primary" onclick="downloadNotes()"> Download Notes <i class="fas fa-download"></i> </button>
+&nbsp; <a class="name float-right" style="font-size: 18px; text-decoration: none;" href="../ppts/Chapter 7/7.3.pptx" target="_blank"><i class="fas fa-download"></i>CLICK HERE TO DOWNLOAD THE PPT</a> 
+        <script type="text/javascript">
+         function downloadNotes(){
+            var text = document.getElementById("notes").value;
+            text = text.replace(/\n/g, "\r\n"); // To retain the Line breaks.
+            var blob = new Blob([text], { type: "text/plain"});
+            var anchor = document.createElement("a");
+            anchor.download = "Notes.txt";
+            anchor.href = window.URL.createObjectURL(blob);
+            anchor.target ="_blank";
+            anchor.style.display = "none"; // just to be safe!
+            document.body.appendChild(anchor);
+            anchor.click();
+            document.body.removeChild(anchor);
+          }
+        </script>
+        <br> <br>
+<div class="card">
+  <div class="card-header"><i class="fas fa-sticky-note"></i> &nbsp;&nbsp;Chapter Notes</div>
+  <div class="card-body">Notes of Chapter 7 part 3</div>
+</div>
+<!-- end card -->
+
+<br>
+
+<div class="card">
+  <div class="card-header"><i class="fas fa-book-reader"></i> &nbsp;&nbsp;Additional Reading</div>
+  <div class="card-body">Additional Reading of Chapter 7 part 3</div>
+</div>
+<!-- end card -->
+
+</div>
+<!-- end container -->   
+
+</body>
+</html> 
