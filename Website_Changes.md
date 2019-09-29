@@ -10,3 +10,4 @@
 1. Hindi>index.html - Content Changed, Shifted Float-Right (Catchphrase) to Float-Left
 2. Tamil>index.html - Content Changed, Shifted Float-Right (Catchphrase) to Float-Left
 3. Kannada>index.html - Content Changed, Shifted Float-Right (Catchphrase) to Float-Left
+4. master>index.html - Content Changed, Shifted Float-Right (Catchphrase) to Float-Left
